@@ -7,6 +7,6 @@ st.set_page_config(page_title="Streamlit Data App", layout="wide")
 
 st.title("Movies Analysis")
 
-df = pd.read_csv("movies.csv")
+#df = pd.read_csv("movies.csv")
 
 st.write(df)
